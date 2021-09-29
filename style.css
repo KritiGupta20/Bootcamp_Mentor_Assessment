@@ -1,0 +1,268 @@
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-width: 2560px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .card1 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        max-height: 500px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+    }
+    
+    .card2 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        max-height: 500px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+    }
+    
+    .card3 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        max-height: 500px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+    }
+    
+    .card4 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        max-height: 500px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+    }
+    
+    .price {
+        color: grey;
+        font-size: 22px;
+    }
+    
+    .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    .card button:hover {
+        opacity: 0.7;
+    }
+    
+    .pagination {
+        display: inline-block;
+    }
+    
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        display: inline;
+    }
+    
+    .pagination a.active {
+        background-color: #27087e;
+        color: white;
+        border-radius: 5px;
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card1 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 200px;
+            max-height: 500px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        .card2 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 200px;
+            max-height: 500px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        .card3 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 200px;
+            max-height: 500px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        .card4 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 200px;
+            max-height: 500px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+    }
+    /* 
+        ##Device = Tablets, Ipads (portrait)
+        ##Screen = B/w 768px to 1024px
+      */
+    
+    @media (min-width: 1024px) and (max-width: 1366px) {
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card1 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 250px;
+            max-height: 500px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        .card2 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 250px;
+            max-height: 500px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        .card3 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 250px;
+            max-height: 500px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        .card4 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 250px;
+            max-height: 500px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+    }
+    
+    @media (min-width: 414px) and (max-width: 736px) {
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card1 {
+            font-size: small;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 150px;
+            max-height: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        .card2 {
+            font-size: small;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 150px;
+            max-height: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        .card3 {
+            font-size: small;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 150px;
+            max-height: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        .card4 {
+            font-size: small;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 150px;
+            max-height: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+    }
+    /* 
+        ##Device = Most of the Smartphones Mobiles (Portrait)
+        ##Screen = B/w 320px to 479px
+      */
+    
+    @media (min-width: 375px) and (max-width: 667px) {
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card1 {
+            font-size: small;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 150px;
+            max-height: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        .card2 {
+            font-size: small;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 150px;
+            max-height: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        .card3 {
+            font-size: small;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 150px;
+            max-height: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        .card4 {
+            font-size: small;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 150px;
+            max-height: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+    }
